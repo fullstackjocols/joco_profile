@@ -1,4 +1,5 @@
 {
+    "hompage": "https://fullstackjocols.github.io/joco_profile",
     "scripts": {
         "build": "postcss src/scss/app.scss -o dist/css/app.css",
         "deploy": "gh-pages -d . -b main"
