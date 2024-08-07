@@ -1,6 +1,7 @@
 {
     "scripts": {
-        "build": "postcss src/scss/app.scss -o dist/css/app.css"
+        "build": "postcss src/scss/app.scss -o dist/css/app.css",
+        "deploy": "gh-pages -d . -b main"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.20",
